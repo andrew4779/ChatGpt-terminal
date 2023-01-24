@@ -8,10 +8,10 @@ This repository has been inspired by <a href="https://github.com/danielgross/wha
 ```
 git clone https://github.com/ayushgml/chatgpt-terminal-test.git
 cd chatgpt-terminal-test
-virtualenv pyenv
-source pyenv/bin/activate
+python3 -m venv virtual
+source virtual/bin/activate
 pip install -r requirements.txt
-python server.py
+python3 server.py
 ```
 
 Now in your terminal you can paste this sample curl request (or you can create your own):
