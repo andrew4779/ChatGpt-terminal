@@ -20,7 +20,7 @@ curl -XGET http://localhost:5001/chat\?q\=i%20am%20having%20an%20exam%20tomorrow
 ```
 
 <h4>The result should be like this:</h4>
-<img width="1089" alt="chatgpt-ss" src="">
+<img width="1089" alt="" src="">
 
 Note: the server.py code uses a sleep time for 15 seconds. So the content that can be processed by the chatGPT in 15 seconds can be seen in the terminal. Response message till 15 seconds will be recorded.
 
